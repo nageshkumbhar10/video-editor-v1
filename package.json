@@ -1,0 +1,47 @@
+{
+  "_from": "nagesh-video-editor",
+  "_inBundle": false,
+  "_integrity": "sha512-3qqsdQFjCgKNfSpF0zV90Itclv5ThN4dwthUq/7b1vQq+v92XbRkFAkOLMuL059x3O6L3hzDHq86gzkb78x7bw==",
+  "_location": "/nagesh-video-editor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nagesh-video-editor",
+    "name": "nagesh-video-editor",
+    "escapedName": "nagesh-video-editor",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nagesh-video-editor/-/nagesh-video-editor-2.1.2.tgz",
+  "_shasum": "42c5d9f600ef6be1f6ba445294346ba9b7876035",
+  "_spec": "nagesh-video-editor",
+  "_where": "D:\\ng-video-test2",
+  "author": "nagesh kumbhar",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "make-dir": "^3.0.2",
+    "pm2": "^4.2.3"
+  },
+  "deprecated": false,
+  "description": "this is hls convertor ",
+  "devDependencies": {},
+  "keywords": [
+    "test",
+    "nagesh"
+  ],
+  "license": "ISC",
+  "main": "server.js",
+  "name": "nagesh-video-editor",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node server.js"
+  },
+  "version": "2.1.4"
+}
