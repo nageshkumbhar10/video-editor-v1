@@ -1,7 +1,8 @@
 {
   "_from": "nagesh-video-editor",
+  "_id": "nagesh-video-editor@2.1.5",
   "_inBundle": false,
-  "_integrity": "sha512-3qqsdQFjCgKNfSpF0zV90Itclv5ThN4dwthUq/7b1vQq+v92XbRkFAkOLMuL059x3O6L3hzDHq86gzkb78x7bw==",
+  "_integrity": "sha512-cpgiTxxWbMRivOrHdWIAa15yH47T2NfjfIS5KR0jlrN59/IIK73G4VOZYsrWHQcdggsPLPJ3ulJi9gJwRgMPCQ==",
   "_location": "/nagesh-video-editor",
   "_phantomChildren": {},
   "_requested": {
@@ -18,15 +19,20 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/nagesh-video-editor/-/nagesh-video-editor-2.1.2.tgz",
-  "_shasum": "42c5d9f600ef6be1f6ba445294346ba9b7876035",
+  "_resolved": "https://registry.npmjs.org/nagesh-video-editor/-/nagesh-video-editor-2.1.5.tgz",
+  "_shasum": "77c8b3d272cf3eb07cc2f2607b33acc2c7e35a07",
   "_spec": "nagesh-video-editor",
-  "_where": "D:\\ng-video-test2",
-  "author": "nagesh kumbhar",
+  "_where": "D:\\nk-editor",
+  "author": {
+    "name": "nagesh kumbhar"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "express": "^4.17.1",
+    "express-ws": "^4.0.0",
     "fluent-ffmpeg": "^2.1.2",
-    "make-dir": "^3.0.2",
+    "fluent-ffmpeg-fix": "^2.1.3",
+    "make-dir": "^3.1.0",
     "pm2": "^4.2.3"
   },
   "deprecated": false,
@@ -43,5 +49,5 @@
     "start": "node server.js",
     "test": "node server.js"
   },
-  "version": "2.1.4"
+  "version": "2.1.5"
 }
